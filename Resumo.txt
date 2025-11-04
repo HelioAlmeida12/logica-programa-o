@@ -1,4 +1,4 @@
-INTRODUÇÃO------------------------------------------------------
+Seção 1 - INTRODUÇÃO------------------------------------------------------
 
     O que é Algoritmo?
     Sequencia de passos que descreve como resolver um problema.
@@ -37,7 +37,7 @@ INTRODUÇÃO------------------------------------------------------
         É uma forma de representar algoritmos utiliando uma mistura de linguagem natural com algumas convenções de programação. 
 
 
-VARIAVEIS E TIPOS DE VALORES-----------------------------------------------------------------
+Seçã0 2 - VARIAVEIS E TIPOS DE VALORES-----------------------------------------------------------------
 
     O que são variáveis?
         Um local na memória do computador que armazena um valor de um certo tipo.
@@ -47,4 +47,38 @@ VARIAVEIS E TIPOS DE VALORES----------------------------------------------------
     O que são constantes?
         Uma constante é como uma caixinha que, depois que guardamos algo, nunca mais podemos alterar seu conteúdo
 
-        //secao 2 - 8
+    Tipos de Dados:
+        Uma variavel pode armazenar uma valor dos Tipos
+            *String(texto)
+            *Número(decimal ou inteiro)
+            *Boolean(verdade ou mentira)
+            *...outros que veremos à frente
+
+    Operadores aritméticos
+        *Somar(+)
+        *Subtrair(-)
+        *Multiplicar(*)
+        *Dividir(/)
+        *Resto da divisão ou módulo(%)
+    
+    Qual a diferença entre Number(), parseFloat() e parseInt()?
+       parseInt e parseFloat: Se eu tiver um texto com algo que pode ser convertido para 
+            numero, ele converte para número o que der, e descarta o que vem depois.
+
+            EX: >parseFloat("3.3")
+                <.3.3
+
+                >parseFloat("3.3abb369")
+                <.3.3
+
+                >Number("3.3")
+                <.3.3
+
+                >Number("3.3a")
+                <. NaN
+        
+        Essa é a diferença entre eles, Number() quando vai algum dado como no exemplo acima que não seja numero
+        ele logo retornará NaN. Diferente de parseFloat e parseInt, que ira converter o que der e o restante
+        ira descartar
+
+secao 2 - 13
