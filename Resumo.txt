@@ -1,0 +1,50 @@
+INTRODUÇÃO------------------------------------------------------
+
+    O que é Algoritmo?
+    Sequencia de passos que descreve como resolver um problema.
+    Ex: Uma receita de bolo, atravessa a rua, construir uma casa.
+
+    O que é Lógica de programação?
+        Uma sequencia de passos logicos(Algoritmos), escritos com uma linguagem de programação para resolver
+        um problema computacional
+
+    O que é uma linguagem de programação?
+        É um conjunto de regras que definem como um computador deve interpretar e executar um conjunto de instruções
+
+    Tipos de linguagens:
+
+        Linguagens de Alto nivel
+            Mais proximas da linguagem humana, mais proxima da maneira como falamos.
+            Ex: JavaScript
+
+        Linguagens de baixo nivel
+            Mais proximas da linguagem de maquina, ou seja, mais proxima do processador.
+            Ex: Assembly e C/C++
+
+        Linguagens interpretadas
+            Linguagens que são interpretadas por um programa, que se chama INTERPRETADOR.
+
+        Linguagens Compiladas
+            Linguagens transformadas para linguagem de maquina
+
+
+    O que é um Fluxograma:
+        É uma representação visual de um processo ou Algoritmo. 
+        A ideia é representar visualmente o fluxo de informações e a sequencia de operações de forma clara e compreensível.
+
+
+    Pseudo-código:
+        É uma forma de representar algoritmos utiliando uma mistura de linguagem natural com algumas convenções de programação. 
+
+
+VARIAVEIS E TIPOS DE VALORES-----------------------------------------------------------------
+
+    O que são variáveis?
+        Um local na memória do computador que armazena um valor de um certo tipo.
+        Uma variavel é um endereço na memoria que armazena um valor.
+        Uma variavel é como uma caixinha com um nome que Eu dou.
+
+    O que são constantes?
+        Uma constante é como uma caixinha que, depois que guardamos algo, nunca mais podemos alterar seu conteúdo
+
+        //secao 2 - 8
