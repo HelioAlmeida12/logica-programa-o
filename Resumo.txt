@@ -52,7 +52,19 @@ Seçã0 2 - VARIAVEIS E TIPOS DE VALORES----------------------------------------
             *String(texto)
             *Número(decimal ou inteiro)
             *Boolean(verdade ou mentira)
-            *...outros que veremos à frente
+            *null
+            *undefined
+            *NaN
+            *...outros que veremos a frente
+
+    Algumas maneiras para converter Tipos:
+        *Number()
+        *Boolean
+        *String()
+        *parseInt()
+        *parseFloat()
+        *!
+        *.toString()
 
     Operadores aritméticos
         *Somar(+)
@@ -81,4 +93,27 @@ Seçã0 2 - VARIAVEIS E TIPOS DE VALORES----------------------------------------
         ele logo retornará NaN. Diferente de parseFloat e parseInt, que ira converter o que der e o restante
         ira descartar
 
-secao 2 - 13
+    Operadores de atribuição e aritméticos                       
+        Exponenciação -> ** | Precedência 15    EX: 4 ** 2 = 16  
+        multiplicação -> *  | Precedência 14    EX: 4 * 2 = 8
+        divisão -> /        | Precedência 14    EX: 4 / 2 = 2
+        Resto(módulo) -> %  | Precedência 14    EX: 4 % 2 = 0
+        Adição -> +         | Precedência 13    EX: 4 + 2 = 6
+        Subtração -> -      | Precedência 13    EX: 4 - 2 = 2
+
+    
+        atribuição =
+        Adição e atribuição +=
+        Subtração e atribuição -=
+        multiplicação e atribuição *=
+        Divisão e atribuição /=
+        Resto e atribuição %=
+        Exponenciação e atribuição **=
+
+    
+        Incremento pós fixado ++ EX: x++
+        Decremento pós fixado -- EX: x--
+        Incremento pré fixado ++ EX: ++x
+        Decremento pré fixado -- EX: --x   
+
+    
