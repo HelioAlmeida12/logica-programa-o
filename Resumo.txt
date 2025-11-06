@@ -57,13 +57,16 @@ Seçã0 2 - VARIAVEIS E TIPOS DE VALORES----------------------------------------
             *NaN
             *...outros que veremos a frente
 
+        Como saber qual o tipo?
+        É possível checar o tipo, no JavaScript usando o operador typeof
+
     Algumas maneiras para converter Tipos:
         *Number()
         *Boolean
         *String()
         *parseInt()
         *parseFloat()
-        *!
+        *! (Negação)
         *.toString()
 
     Operadores aritméticos
@@ -116,4 +119,4 @@ Seçã0 2 - VARIAVEIS E TIPOS DE VALORES----------------------------------------
         Incremento pré fixado ++ EX: ++x
         Decremento pré fixado -- EX: --x   
 
-    
+    seção 3
