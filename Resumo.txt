@@ -119,4 +119,24 @@ Seçã0 2 - VARIAVEIS E TIPOS DE VALORES----------------------------------------
         Incremento pré fixado ++ EX: ++x
         Decremento pré fixado -- EX: --x   
 
-    seção 3
+Seção 3 - Operadores de comparação e Lógicos -----------------------------------------------------------  
+
+        == Igualdade(apenas valor)
+        === Igualdade(Valor e tipo)
+        != Diferente(valor e tipo)
+        < Menor que
+        <= Menor ou igual à
+        > Maior que
+        >= Maior ou igual à
+
+        ATENÇÃO: Um sinal de igual nunca é comparação, mas sim atribuição.
+        ATENÇÃO: O operador => não é operador de comparação, mas sim é uma notação para arrow function em JavaScript.
+
+    Operadores Lógicos
+        ! = Negação  
+        && = E/and
+        || = Ou
+
+Seção 4 - Controle de decisão -----------------------------------------------------------------------------
+
+    36

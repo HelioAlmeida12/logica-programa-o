@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Desafio</h1>
+
+    <p>1 - Foi pedido para o usuario digitar dois números de 0 à 10, mas o engraçadinho digitou 15. Como resolver?
+    </p>
+
+    <script>
+       let n1 = parseFloat(prompt("Digite um número de 0 à 10:"))
+       let n2 = parseFloat(prompt("Digite outro número de 0 à 10:"))
+
+       if(isNaN(n1) || isNaN(n2)){
+            alert("Digite apenas números")
+       }else if( n1 < 0 || n2 < 0 || n1 > 10 || n2 > 10){
+            alert("Digite apenas numeros entre 0 e 10")
+       } else {
+        let media = (n1 + n2) / 2
+            if(media > 4 && n1 > 0 && n2 > 0){
+                alert("Aprovado")
+            } else{
+                alert("Reprovado")
+            }
+       }
+       
+      alert("Fim do programa!")
+       
+
+    </script>
+</body>
+</html>
