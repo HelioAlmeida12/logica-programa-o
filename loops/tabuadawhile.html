@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = parseFloat(prompt("Digite um número: "))
+
+        if(!isNaN(n)){
+            let contador = 0
+            while(contador <= 1000){
+                document.write(n + " x " + contador + ": " + n * contador + "<br>")
+               
+                
+                contador++
+        }
+
+        document.write("Saiu do loop")
+       } else {
+        alert("Digite apenas números")
+       }
+    </script>
+</body>
+</html>

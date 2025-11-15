@@ -139,4 +139,17 @@ Seção 3 - Operadores de comparação e Lógicos ------------------------------
 
 Seção 4 - Controle de decisão -----------------------------------------------------------------------------
 
-    36
+Seção 5 - Laços de repetições.
+
+1. Loop while(){} | Ideal quando não sabemos quantas vezes será executado
+2. Loop for | Ideal quando sabemos exatamente quantas vezes será executado
+3. Loop do...while | Similar ao while, mas executa ao menos uma vez, mesmo que na primeira vez, a condição seja falsa
+
+Para Não esquecer:
+    1. Um loop sempre precisa ter uma condição de saída
+    2. Loop for: IDEAL para quando sabemos exatamente quantas vezes o loop será executado
+    3. Loop while: IDEAL para quando não sabemos quantas vezes o loop será executado. Além disso, se a condição for false, não 
+        executa nenhuma vez
+    4. Loop do... while: Se parece com o o loop while, mas o código é executado ao menos uma vez, mesmo que a condição seja inicialmente false
+
+    break--
